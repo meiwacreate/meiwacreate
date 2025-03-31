@@ -4,8 +4,8 @@ import { FaGithub } from "react-icons/fa"
 
 export default function Home() {
   return (
-    <div className="px-4 md:px-0 py-8 min-h-screen bg-gradient-to-br from-blue-400 via-indigo-400 to-violet-400">
-      <div className="border border-white rounded-lg bg-white p-4 md:max-w-md w-full mx-auto shadow-lg">
+    <div className="px-4 md:px-0 py-8">
+      <div className="border rounded-lg bg-white p-4 md:max-w-md w-full mx-auto shadow-lg">
         <Image src="/avatar.jpg" alt="Avatar" width={100} height={100} className="rounded-full aspect-square w-24" />
         <h1 className="font-semibold text-xl mt-2">meiwa</h1>
         <div className="flex flex-wrap gap-2 mt-2 text-sm">
