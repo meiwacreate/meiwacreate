@@ -24,7 +24,7 @@ export default function Home() {
         <h2 className="font-semibold text-lg">Links</h2>
         <div className="flex flex-wrap gap-2 mt-2">
           <Link href="https://github.com/meiwacreate" target="_blank" rel="noopener noreferrer" passHref><p className="px-2.5 py-1 bg-gray-50 border text-gray-600 rounded-full flex items-center"><FaGithub className="mr-1" />GitHub</p></Link>
-          <Link href="https://github.com/meiwacreate" target="_blank" rel="noopener noreferrer" passHref><p className="px-2.5 py-1 bg-gray-50 border text-gray-600 rounded-full flex items-center"><Image src="/zenn-logo.svg" alt="Zenn Logo" width={100} height={100} className="w-4 mr-1" />Zenn</p></Link>
+          <Link href="https://zenn.dev/meiwacreate" target="_blank" rel="noopener noreferrer" passHref><p className="px-2.5 py-1 bg-gray-50 border text-gray-600 rounded-full flex items-center"><Image src="/zenn-logo.svg" alt="Zenn Logo" width={100} height={100} className="w-4 mr-1" />Zenn</p></Link>
         </div>
       </div>
     </div>
