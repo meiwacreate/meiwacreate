@@ -9,8 +9,8 @@ export default function Home() {
         <Image src="/avatar.jpg" alt="Avatar" width={100} height={100} className="rounded-full aspect-square w-24" />
         <h1 className="font-semibold text-xl mt-2">meiwa</h1>
         <div className="flex flex-wrap gap-2 mt-2 text-sm">
-          <Link href="https://github.com/meiwacreate" target="_blank" rel="noopener noreferrer" passHref><p className="px-2.5 py-0.5 bg-gray-50 border text-gray-600 rounded-full flex items-center hover:bg-gray-200 duration-200"><FaGithub className="mr-1.5" />GitHub</p></Link>
-          <Link href="https://zenn.dev/meiwacreate" target="_blank" rel="noopener noreferrer" passHref><p className="px-2.5 py-0.5 bg-gray-50 border text-gray-600 rounded-full flex items-center hover:bg-gray-200 duration-200"><Image src="/zenn-logo.svg" alt="Zenn Logo" width={100} height={100} className="w-4 mr-1.5 select-none" />Zenn</p></Link>
+          <Link href="https://github.com/meiwacreate" target="_blank" rel="noopener noreferrer" passHref><p className="shadow-inner px-2.5 py-0.5 bg-gray-50 border text-gray-600 rounded-full flex items-center hover:bg-gray-200 duration-200"><FaGithub className="mr-1.5" />GitHub</p></Link>
+          <Link href="https://zenn.dev/meiwacreate" target="_blank" rel="noopener noreferrer" passHref><p className="shadow-inner px-2.5 py-0.5 bg-gray-50 border text-gray-600 rounded-full flex items-center hover:bg-gray-200 duration-200"><Image src="/zenn-logo.svg" alt="Zenn Logo" width={100} height={100} className="w-4 mr-1.5 select-none" />Zenn</p></Link>
         </div>
         <p className="mt-2 text-gray-600">I am a student. I mainly focus on front-end development and build things that I want to create.</p>
         <div className="flex flex-wrap gap-2 mt-2">
